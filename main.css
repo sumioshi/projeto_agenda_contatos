@@ -1,0 +1,165 @@
+/* Removendo os botões de aumento e diminuição dos inputs de número */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Estilos globais para a página */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Handlee', cursive;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    background-color: #25d366; /* Verde do WhatsApp */
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    height: 100px;
+}
+
+header h1 {
+    font-size: 40px;
+    text-decoration: underline solid 2px #fff; /* Branco */
+    text-underline-offset: 5px;
+    color: #fff; /* Branco */
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+header h1, 
+header h3 {
+    text-decoration: underline solid 2px #fff; /* Branco */
+    text-underline-offset: 5px;
+    color: #fff; /* Branco */
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    max-width: 1204px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff; /* Branco */
+    border-radius: 10px; /* Bordas arredondadas */
+    align-items: center;
+}
+
+/* Estilos para o corpo da página */
+body {
+    padding-top: 100px;
+}
+
+/* Estilos para o formulário */
+#formulario {
+    border-bottom: 2px solid #25d366; /* Verde do WhatsApp */
+    border-top: 2px solid #25d366; /* Verde do WhatsApp */
+    width: 100%;
+    background-color: #25d366; /* Verde do WhatsApp */
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form input {
+    font-size: 18px;
+    border: 2px solid #000; /* Preto */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 7px;
+    margin: 10px 15px;
+    width: 200px;
+    background-color: #fff; /* Branco */
+}
+
+#inputCor {
+    width: 50px;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+form button {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    min-width: 100px;
+    margin: 3px 15px;
+    padding: 5px;
+    background-color: #25d366; /* Verde do WhatsApp */
+    font-weight: bold;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: #25d366ba; /* Verde do WhatsApp com transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilos para a tabela */
+table {
+    font-family: 'Nanum Brush Script', cursive;
+    width: 100%;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table th {
+    border-bottom: 2px solid #040101;
+    padding: 16px;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+table td {
+    padding: 16px 0px;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid #040101;
+    font-family: 'Handlee', cursive;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilos para o rodapé */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: #8FE0D4;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+footer button {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 18px;
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 200px;
+    background-color: #25d366; /* Verde do WhatsApp */
+    padding: 8px;
+}
+
+footer button:hover {
+    cursor: pointer;
+    background-color: #ff6961;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+footer span {
+    text-decoration: underline 2px;
+    font-size: 20px;
+    font-family: 'Nanum Brush Script', cursive;
+    font-weight: bold;
+}
+
+/* Classes de fontes (não tenho informações sobre as fontes "handmade" e "brusher") */
+.fontes {
+    font-family: handmade;
+    font-family: brusher;
+}
